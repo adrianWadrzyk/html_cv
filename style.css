@@ -1,0 +1,37 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main { 
+    width: 740px;
+    height: 1046px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+.side_section { 
+    background-color: #2b3a50;
+    width: 242px;
+    height: 100%;
+}
+
+.hexagon { 
+    display: flex;
+    position: relative;
+    top: 60px;
+    margin: 0 auto;
+    width: 197px;
+    height: 226px;
+    background-color: #424242;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.hexagon > img { 
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
