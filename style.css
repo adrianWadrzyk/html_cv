@@ -1,3 +1,7 @@
+:root { 
+    --main-color:#2b3a50;
+}
+
 *{ 
     margin: 0;
     padding: 0;
@@ -8,25 +12,25 @@
     width: 740px;
     height: 1046px;
     margin: 0 auto;
-    background-color: black;
+    display: flex;
+    border: 1px solid black;
 }
 
 .side_section { 
-    background-color: #2b3a50;
-    width: 242px;
+    background-color: var(--main-color);
+    width: 245px;
     height: 100%;
 }
 
 .hexagon { 
-    display: flex;
-    position: relative;
-    top: 60px;
-    margin: 0 auto;
+    margin: auto;
     width: 197px;
     height: 226px;
     background-color: #424242;
     -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
     clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    position: relative;
+    top: 60px;
 }
 
 .hexagon > img { 
@@ -35,3 +39,78 @@
     display: block;
     object-fit: cover;
   }
+
+.leftColumn-flex__wrapper{ 
+    display: flex;
+    flex-direction: column;
+    height: 760px;
+    justify-content: space-around;
+    position: relative;
+    top:60px;
+}
+
+.conteiner{
+    position: relative;
+    width: 100%;
+    height: 100px;
+    text-align: left;
+    padding-left: 30px;
+}
+
+.conteiner__header { 
+    width: 100%;
+    display: table-cell;
+    border-bottom: 1px solid #e1e4e6;
+    text-transform: uppercase;
+    color: #eff1f1
+}
+
+.conteiner__header::after { 
+    content: "";
+    display: table-cell;
+    width: 100%;
+    padding-top: 3px;
+}
+
+.conteiner__text { 
+    color: #646f80;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.intrest__list { 
+    columns: 2;
+    list-style: none;
+}
+
+.description { 
+    width: 495px;
+}
+
+.name_surname { 
+    text-align: center;
+    color: #424242;
+    font-size: 60px;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.header__wrapper { 
+    display: flex;
+}
+
+.proffesion { 
+    text-transform: uppercase;
+    padding-left: 20px;
+    padding-right: 20px;
+    flex: 0 0 auto;
+    font-size: 10px;
+}
+
+.line { 
+    content: "";
+    background-color: var(--main-color);
+    height: 10px;
+    margin-right: 20px;
+    flex: 1 1 auto;
+}
