@@ -1,63 +1,311 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div id="main" class="main">
-            <div  id ="side_section" class="side_section" >
-                <div class="hexagon">
-                    <img src="test.png">
-                </div>
-                <div class="leftColumn-flex__wrapper">
-                    <div class="conteiner">
-                        <h3 class="conteiner__header">About Me</h3>
-                        <p class="conteiner__text">Date of Birth: January 1,1999</p>
-                        <p class="conteiner__text">Age: 19</p>
-                        <p class="conteiner__text">Gender: Male</p>
-                        <p class="conteiner__text">Birth Place: Chicago, Illinois</p>
-                    </div>
-                    <div class="conteiner">
-                        <h3 class="conteiner__header">Contact</h3>
-                        <p class="conteiner__text">Date of Birth: January 1,1999</p>
-                        <p class="conteiner__text">Age: 19</p>
-                        <p class="conteiner__text">Gender: Male</p>
-                        <p class="conteiner__text">Birth Place: Chicago, Illinois</p>
-                    </div>
-                    <div class="conteiner">
-                        <h3 class="conteiner__header">Interests</h3>
-                        <ul class="intrest__list">
-                            <li class="conteiner__text">Online Games</li>
-                            <li class="conteiner__text">Problem Solving</li>
-                            <li class="conteiner__text">Physical Activities</li>
-                            <li class="conteiner__text">Books</li>
-                            <li class="conteiner__text">Machines</li>
-                            <li class="conteiner__text">Cofee</li>
-                        </ul>
-                    </div>
-                    <div class="conteiner">
-                        <h3 class="conteiner__header">Hobbies</h3>
-                        <p class="conteiner__text">Date of Birth: January 1,1999</p>
-                        <p class="conteiner__text">Age: 19</p>
-                        <p class="conteiner__text">Gender: Male</p>
-                        <p class="conteiner__text">Birth Place: Chicago, Illinois</p>
-                    </div>
-            </div>
-            </div>
-            <div id="description" class="description">
-                    <h1 class="name_surname">Kyle Ryan</h1>
-                    <div class=header__wrapper>
-                        <h5 class="proffesion">Web developer</h5>
-                        <span class="line"></span>
-                    </div>
-                </header>
-            </div>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title></title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="main" class="main">
+      <div id="side_section" class="side_section">
+        <div class="hexagon">
+          <img src="test.png" />
         </div>
-        <script src="" async defer></script>
-    </body>
+        <div class="leftColumn-flex__wrapper">
+          <div class="conteiner">
+            <h3 class="conteiner__header">About Me</h3>
+            <p class="conteiner__text">Date of Birth: January 1,1999</p>
+            <p class="conteiner__text">Age: 19</p>
+            <p class="conteiner__text">Gender: Male</p>
+            <p class="conteiner__text">Birth Place: Chicago, Illinois</p>
+          </div>
+          <div class="conteiner">
+            <h3 class="conteiner__header">Contact</h3>
+            <div class="conteiner__text conteiner--data">
+              <span class="icon"> X</span>
+              <p class="contact__details">ul.Słowackiego 26/9 34-100 Wadowice</p> 
+            </div>
+            <div class="conteiner__text conteiner--data">
+              <span class="icon"> X</span>
+              <p class="contact__details">791306145</p> 
+            </div>
+            <div class="conteiner__text conteiner--data">
+              <span class="icon"> X</span>
+              <p class="contact__details">adrian.wadrzyk.contact@gmail.com</p> 
+            </div>
+          </div>
+          <div class="conteiner">
+            <h3 class="conteiner__header">Interests</h3>
+            <ul class="intrest__list">
+              <li class="conteiner__text">Online Games</li>
+              <li class="conteiner__text">Problem Solving</li>
+              <li class="conteiner__text">Physical Activities</li>
+              <li class="conteiner__text">Books</li>
+              <li class="conteiner__text">Machines</li>
+              <li class="conteiner__text">Cofee</li>
+            </ul>
+          </div>
+          <div class="conteiner">
+            <h3 class="conteiner__header">Hobbies</h3>
+            <p class="conteiner__text">Date of Birth: January 1,1999</p>
+            <p class="conteiner__text">Age: 19</p>
+            <p class="conteiner__text">Gender: Male</p>
+            <p class="conteiner__text">Birth Place: Chicago, Illinois</p>
+          </div>
+        </div>
+      </div>
+      <div id="description" class="description">
+        <h1 class="name_surname">Kyle Ryan</h1>
+        <header class="header__wrapper">
+          <h5 class="proffesion">Web developer</h5>
+          <span class="line"></span>
+        </header>
+        <div class="conteiner conteiner--description">
+          <h3 class="conteiner__header conteiner__header--description">
+            Careear objective
+          </h3>
+          <p class="conteiner__text">
+            To bo able to work for anecouraging and stable company that will
+            asist me in developin, improving and obtaining necessary skills in
+            order to become the best engineer possible.
+          </p>
+        </div>
+        <div class="flex__wrapper">
+          <div class="conteiner conteiner--description" id="education">
+            <h3 class="conteiner__header conteiner__header--description">
+              Education
+            </h3>
+            <dl>
+              <dt>2021</dt>
+              <dd>MTA 98-361 Software Development Fundamentals</dd>
+              <dd>MTA 98-367 Security Fundamentals</dd>
+              <dt>2020</dt>
+              <dd>MTA 98-364 - Database Fundamentals</dd>
+              <dt>2019</dt>
+              <dd>College Of Economics And Computer Science in Krakow</dd>
+            </dl>
+          </div>
+          <div
+            class="conteiner conteiner--description"
+            id="technical__proficiences"
+          >
+            <h3 class="conteiner__header conteiner__header--description">
+              Technical Proficiences
+            </h3>
+            <div class="conteiner conteiner--clearPadding">
+              <p
+                class="conteiner__text conteiner__text--technicalProfieciences"
+              >
+              JavaScript, CSS, CSS3, SCSS, HTML, Angular, SQL, C#, Verbal Comunnication, Teamwork
+              API's, Web Programing Skills, cross browser compatibility
+            </p>
+            </div>
+          </div>
+          <div class="conteiner conteiner--description">
+            <h3 class="conteiner__header conteiner__header--description">
+              Experience
+            </h3>
+            <div class="conteiner--carierStep">
+              <h3 class="conteiner__header--carierStep">Web Developer</h3>
+              <h5 class="sub__header">
+                2020 to present | INNER Company <br />
+                -Sometown, NC
+              </h5>
+              <p class="description--carierStep">
+                Key contributor to startup company's fast evolution from selling
+                one niche product to offering a full solutions suite marketed to
+                the globel financial services industry.
+              </p>
+              <ul class="list--carierStep">
+                <li class="duty--carierStep">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                  a corporis explicabo rerum accusamus obcaecati assumenda
+                </li>
+                <li class="duty--carierStep">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                  a corporis explicabo rerum accusamus obcaecati assumenda
+                </li>
+                <li class="duty--carierStep">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                  a corporis explicabo rerum accusamus obcaecati assumenda
+                </li>
+              </ul>
+            </div>
+            <div class="conteiner--carierStep">
+              <h3 class="conteiner__header--carierStep">Web Developer</h3>
+              <h5 class="sub__header">
+                2020 to present | INNER Company <br />
+                -Sometown, NC
+              </h5>
+              <p class="description--carierStep">
+                Key contributor to startup company's fast evolution from selling
+                one niche product to offering a full solutions suite marketed to
+                the globel financial services industry.
+              </p>
+              <ul class="list--carierStep">
+                <li class="duty--carierStep">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                  a corporis explicabo rerum accusamus obcaecati assumenda
+                </li>
+                <li class="duty--carierStep">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                  a corporis explicabo rerum accusamus obcaecati assumenda
+                </li>
+                <li class="duty--carierStep">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo,
+                  a corporis explicabo rerum accusamus obcaecati assumenda
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="conteiner conteiner--description" id="expertise">
+            <h3 class="conteiner__header conteiner__header--description">
+              Expertise
+            </h3>
+            <ul class="rating__element__list">
+              <li class="rating__element__conteiner">
+                <div class="rating__element">
+                  CMS Customizations and plugin development
+                </div>
+                <div class="dots">
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--empty"></span>
+                  <span class="dot dot--empty"></span>
+                </div>
+              </li>
+              <li class="rating__element__conteiner">
+                <div class="rating__element">
+                  CMS Customizations and plugin development
+                </div>
+                <div class="dots">
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--empty"></span>
+                </div>
+              </li>
+              <li class="rating__element__conteiner">
+                <div class="rating__element">
+                  CMS Customizations and plugin development
+                </div>
+                <div class="dots">
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--empty"></span>
+                  <span class="dot dot--empty"></span>
+                  <span class="dot dot--empty"></span>
+                </div>
+              </li>
+              <li class="rating__element__conteiner">
+                <div class="rating__element">
+                  CMS Customizations and plugin development
+                </div>
+                <div class="dots">
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--empty"></span>
+                </div>
+              </li>
+              <li class="rating__element__conteiner">
+                <div class="rating__element">
+                  CMS Customizations and plugin development
+                </div>
+                <div class="dots">
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--empty"></span>
+                  <span class="dot dot--empty"></span>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="conteiner conteiner--description" id="skills">
+            <h3 class="conteiner__header conteiner__header--description">
+              Skills
+            </h3>
+            <ul class="rating__element__list">
+              <li class="rating__element__conteiner">
+                <div class="rating__element">
+                  CMS Customizations and plugin development
+                </div>
+                <div class="dots">
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--empty"></span>
+                  <span class="dot dot--empty"></span>
+                </div>
+              </li>
+              <li class="rating__element__conteiner">
+                <div class="rating__element">
+                  CMS Customizations and plugin development
+                </div>
+                <div class="dots">
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--empty"></span>
+                </div>
+              </li>
+              <li class="rating__element__conteiner">
+                <div class="rating__element">
+                  CMS Customizations and plugin development
+                </div>
+                <div class="dots">
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--empty"></span>
+                  <span class="dot dot--empty"></span>
+                  <span class="dot dot--empty"></span>
+                </div>
+              </li>
+              <li class="rating__element__conteiner">
+                <div class="rating__element">
+                  CMS Customizations and plugin development
+                </div>
+                <div class="dots">
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--empty"></span>
+                </div>
+              </li>
+              <li class="rating__element__conteiner">
+                <div class="rating__element">
+                  CMS Customizations and plugin development
+                </div>
+                <div class="dots">
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--filed"></span>
+                  <span class="dot dot--empty"></span>
+                  <span class="dot dot--empty"></span>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <footer>
+          Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb
+          niezbędnych do realizacji procesu rekrutacji zgodnie z Rozporządzeniem
+          Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016
+          r. w sprawie ochrony osób fizycznych w związku z przetwarzaniem danych
+          osobowych i w sprawie swobodnego przepływu takich danych oraz
+          uchylenia dyrektywy 95/46/WE (RODO).
+        </footer>
+      </div>
+    </div>
+    <script src="" async defer></script>
+  </body>
 </html>
