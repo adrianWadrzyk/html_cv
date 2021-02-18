@@ -73,7 +73,7 @@
 .conteiner__text {
     color: var(--sub-color);
     font-size: 12px;
-    padding-top: 5px;
+    padding-top: 10px;
     padding-right: 5px;
 }
 
@@ -82,8 +82,24 @@
   align-items: center;
 }
 
+.conteiner--hobbies { 
+    display: flex;
+    flex-wrap: wrap;
+}
+
 .icon { 
     padding-right: 15px;
+    font-size: 20px;
+    color: white;
+}
+
+.icon--hobbies { 
+    font-size: 30px;
+    padding: 10px 20px 10px 0;
+}
+
+.contact__details { 
+    padding-right: 10px;
 }
 
 .intrest__list { 
